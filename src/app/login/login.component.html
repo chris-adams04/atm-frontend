@@ -1,0 +1,66 @@
+<html>
+  <body>
+
+    <form action="/main" class="back1">
+      <button type="submit" class="btn btn-default" (click)="back()">Cancel</button>
+  </form>
+
+<div class="form1">
+  <h2 class="text-center" style="color: white; margin-left: 30px;">Login</h2>
+  <div class=" row form2">
+  <form action="\trans">
+    <div class="form-group">
+      <label for="customer_name">Name</label>
+      <input type="text" required minlength="4"  [(ngModel)]="user.customer_name" required placeholder="Enter Name" name="customer_name" class="form-control" id="customer_name" #customer_name="ngModel" required>
+      <div *ngIf="customer_name.invalid && (customer_name.dirty || customer_name.touched)"
+      class="alert alert-danger">
+  
+    <div *ngIf="customer_name.errors.required">
+      Name is required.
+    </div>
+    <div *ngIf="customer_name.errors.minlength">
+      Name must be at least 4 characters long.
+    </div>
+    </div>
+    </div>
+  
+  
+    <div class="form-group">
+      <label for="Amount">Amount</label>
+      <input type="number" [(ngModel)]="user.amount" placeholder="Amount" name="Enter Amount" class="form-control" id="Amount" #Amount="ngModel" required>
+
+    </div>
+    
+    <div class="form-group">
+      <label for="contact_number">Mobile Number</label>
+      <input type="number" required minlength="10" [(ngModel)]="user.contact_number"   placeholder="Mobile Number" name="Enter Mobile Number" class="form-control" id="contact_number" #contact_number="ngModel" required> 
+      <div *ngIf="contact_number.invalid && (contact_number.dirty || contact_number.touched)"
+      class="alert alert-danger">
+  
+    <div *ngIf="contact_number.errors.required">
+      Number is required.
+    </div>
+    <div *ngIf="contact_number.errors.minlength">
+      Number must be of 10 characters long.
+    </div>
+    </div>
+    </div>
+    <!-- <div class="alert alert-danger" *ngIf="pin.touched && !pin.valid">
+      <div *ngIf="pin.errors.required">PIN is requied</div>
+      <div *ngIf="pin.errors.maxlength">PIN should be of 4 numbers</div>
+    </div> -->
+    <button type="submit" class="btn" (click)="createAccount()">Submit</button>
+    <!-- <button type="submit" class="btn btn-success" (click)="createAccount()">Create</button> -->
+  </form>
+</div>
+
+</div>
+
+<div class=" row justify-content-center align-items-center data">
+
+    <h4><p class="font-weight-bolder">{{result}}</p></h4>
+    <a href="/trans">Click here for transaction</a>
+   
+   </div>
+  </body>
+</html>

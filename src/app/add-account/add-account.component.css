@@ -1,0 +1,43 @@
+body {
+    background: url('../../assets/bgLogin1.jpg') no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 460px;
+     /* width: 1280px; */
+}
+.form1 {
+    position: absolute;
+    margin-left: 30px;
+}
+.form1 h2 {
+    margin-left: 0px;
+    color: white;
+}
+.form2 {
+    margin-left: 50px;
+}
+.form2 label {
+    color: white;
+}
+.form2 button {
+    color: white;
+    margin-left: 30px;
+    background-color: none;
+    padding : 10px 30px;
+}
+.form2 button:hover {
+    color: white;
+    border-color: white;
+}
+
+.back1 button {
+    background-color: none;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+
+.data h4 p {
+    color: white;
+    margin-top: 20px;
+}

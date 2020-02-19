@@ -1,0 +1,51 @@
+body {
+    background: url('../../assets/deposit.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 470px;
+     /* width: 1280px; */
+}
+
+.form1 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.back1 button {
+    background-color:none;
+    color: black;
+    font-size: 10px;
+    padding-bottom: 10px;
+    margin-top: 3px;
+    
+}
+.form1 h2, .form2 label {
+    color: white;
+}
+
+.form2 button {
+    color: white;
+    margin-left: 10px;
+    background-color: none;
+    padding : 10px 30px;
+}
+.form2 button:hover {
+    color: white;
+    border-color: white;
+}
+
+.data h4 p {
+    color: white;
+    margin-top: 30px;
+    margin-left: 400px;
+
+}
+
+.back2 {
+    margin-top: 3px;
+    margin-left: 1150px;
+}
+/* .back1 button:hover {
+    color: white;
+    border-color:white;
+} */

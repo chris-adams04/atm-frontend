@@ -1,0 +1,15 @@
+#navbar {
+    background: linear-gradient(to right,rgb(255, 255, 249) 20%, #a74a4a  80%);
+    height: 80px;
+    /* width: 1280px; */
+}
+#navbar a {
+    color: rgb(207, 74, 119);
+    font-size: 2em;
+
+}
+#navbar a img {
+    height: 80px;
+    position: absolute;
+    top: 0;
+}

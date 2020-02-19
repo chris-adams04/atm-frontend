@@ -1,0 +1,64 @@
+body {
+    background: url('../../assets/login1.jpg') no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 490px;
+     /* width: 1280px; */
+}
+.form1 {
+    position: absolute;
+    margin-left: 30px;
+}
+.form1 h2 {
+    margin-left: 0px;
+    color: white;
+}
+.form2 {
+    margin-left: 50px;
+}
+.form2 label {
+    color: white;
+}
+.form2 button {
+    color: white;
+    margin-left: 30px;
+    background-color: none;
+    padding : 10px 30px;
+}
+.form2 button:hover {
+    color: white;
+    border-color: white;
+}
+
+.back1 button {
+    background-color: none;
+    color: black;
+    font-size: 10px;
+    padding-bottom: 10px;
+    margin-top: 3px;
+}
+
+.data h4 p {
+   
+    color: white;
+    margin-top: 0px;
+    margin-left: 150px;
+
+}
+
+.data a {
+    color: brown;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 30px;
+    margin-left: 1000px;
+    margin-top: 250px;
+}
+.data a:hover {
+    background-color: rgba(226, 226, 226, 0.959);
+}
+/* .back1 button:hover {
+    color: white;
+    background-color: none;
+    border-color:white;
+} */

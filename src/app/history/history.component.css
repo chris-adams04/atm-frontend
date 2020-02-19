@@ -1,0 +1,59 @@
+body {
+    background: url('../../assets/history.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 470px;
+     /* width: 1280px; */
+}
+
+.form1 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.form1 h2 {
+    margin-left: 0px;
+    color: white;
+    border-bottom: dotted;
+}
+.form2 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.form2 label {
+    color: white;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.form2 button {
+    color: white;
+    margin-left: 10px;
+    background-color: none;
+    padding : 10px 30px;
+}
+.form2 button:hover {
+    color: white;
+    border-color: white;
+}
+
+.back1 button {
+    background-color:none;
+    color: black;
+    font-size: 10px;
+    padding-bottom: 10px;
+    margin-top: 3px;
+    
+}
+/* .back1 button:hover {
+    color: white;
+    border-color:white;
+} */
+
+/* .submit {
+    float: 20%;
+}
+.cancel {
+    float:20%;
+} */

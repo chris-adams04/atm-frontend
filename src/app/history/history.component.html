@@ -1,0 +1,58 @@
+<html>
+  <body>
+
+    <form action="/main" class="back1">
+      <button type="submit" class="btn btn-default" (click)="back()">Back</button>
+  </form>
+  <div class="form1">
+  <h2 class="text-center">Transaction Details</h2>
+  
+  <div class="form2">
+<form>
+    <div class="form-group">
+      <label for="acc_id">Enter ID</label>
+      <input type="text" required [(ngModel)]="acc_id" placeholder="Enter Account Id" name="acc_id" class="form-control" id="acc_id">
+    </div>
+
+    <button class="btn" (click)="history()">Submit</button>
+    <button class="btn" (click)="back()">Cancel</button>
+    </form>
+  </div>  
+  </div> 
+  
+   <br><br>
+  <div class="row justify-content-center align-items-center ">
+
+   
+<div class="col-md-6">
+    <div *ngIf="display">
+  <table class="table table-striped" style="margin-left: 200px;">
+  <thead>
+  <!-- <tr style="color: white; background-color: rgba(173, 168, 168, 0.705);"> -->
+
+    <tr style="color: white; background-color: black;">
+      <!--  -->
+    <th>Transaction Id</th>
+    <th>Operation</th>
+     <th>Account_id</th>
+     <th>Amount</th>
+
+    </tr>
+
+  </thead>
+  <tbody>
+      <tr *ngFor="let t of trans" style="color: white; background-color: rgba(173, 168, 168, 0.705);">
+        <!-- style="color: white; background-color: rgba(173, 168, 168, 0.705);" -->
+          <td>{{t.trans_id}}</td>
+          <td>{{t.operation}}</td>
+          <td>{{t.acc_id}}</td>
+          <td>{{t.amount}}</td>
+        
+          </tr>
+  </tbody>
+    </table>
+</div>
+  </div>
+  </div>
+  </body>
+</html>

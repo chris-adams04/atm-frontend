@@ -1,0 +1,156 @@
+body {
+    background: url('../../assets/Security.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 485px;
+     /* width: 1280px; */
+}
+
+.balance a {
+    color: white;
+    background-color: none;
+    text-decoration : none;
+}
+.balance {
+    position : absolute;
+    margin-top: 80px;
+    padding: 0px 55px;
+    font-size: 20px;
+    border-color: white;
+}
+.balance:hover {
+    border-color: none;
+    background-color:rgb(255, 255, 255);
+}
+.balance a:hover {
+    color: brown;
+    padding: 0px 80px;
+}
+
+.back1 button {
+    background-color: none;
+    color: black;
+    font-size: 10px;
+    margin-top: 3px;
+}
+/* .back1 button:hover {
+    color: white;
+    border-color:white;
+} */
+
+.withdraw a {
+    color: white;
+    background-color: none;
+    text-decoration : none;
+}
+.withdraw {
+    position : absolute;
+    margin-top: 140px;
+    padding: 0px 55px;
+    font-size: 20px;
+    border-color: white;
+}
+.withdraw:hover {
+    border-color: none;
+    background-color:rgb(255, 255, 255);
+}
+.withdraw a:hover {
+    color: brown;
+    padding: 0px 80px;
+}
+
+.fTransfer a {
+    color: white;
+    background-color: none;
+    text-decoration : none;
+}
+.fTransfer {
+    position : absolute;
+    margin-top: 210px;
+    padding: 0px 55px;
+    font-size: 20px;
+    border-color: white;
+}
+.fTransfer:hover {
+    border-color: none;
+    background-color:rgb(255, 255, 255);
+}
+.fTransfer a:hover {
+    color: brown;
+    padding: 0px 80px;
+}
+
+.deposit a {
+    color: white;
+    background-color: none;
+    text-decoration : none;
+}
+.deposit {
+    position : absolute;
+    margin-top: 280px;
+    padding: 0px 55px;
+    font-size: 20px;
+    border-color: white;
+}
+.deposit:hover {
+    border-color: none;
+    background-color:rgb(255, 255, 255);
+}
+.deposit a:hover {
+    color: brown;
+    padding: 0px 80px;
+}
+
+.history a {
+    color: white;
+    background-color: none;
+    text-decoration : none;
+}
+.history {
+    position : absolute;
+    margin-top: 340px;
+    padding: 0px 55px;
+    font-size: 20px;
+    border-color: white;
+}
+.history:hover {
+    border-color: none;
+    background-color:rgb(255, 255, 255);
+}
+.history a:hover {
+    color: brown;
+    padding: 0px 80px;
+}
+/* .withdraw {
+    position : absolute;
+    margin-top: 200px;
+    padding: 10px 120px;
+    font-size: 30px;
+    color: white;
+    background-color: none;
+    border-color: white;
+}
+
+.withdraw:hover {
+    background-color:rgb(255, 255, 255);
+    color: brown;
+    border-color: none;
+    padding: 10px 160px;
+} */
+
+/* .history {
+    position : absolute;
+    margin-top: 300px;
+    padding: 10px 85px;
+    font-size: 30px;
+    color: white;
+    background-color: none;
+    border-color: white;
+}
+
+.history:hover {
+    background-color:rgb(255, 255, 255);
+    color: brown;
+    border-color: none;
+    padding: 10px 140px;
+} */
